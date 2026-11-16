@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LG CNS · Google Antigravity &amp; Gemini 4 Argon Enablement Slides</title>
+  <title>LG CNS · Google Antigravity &amp; Gemini 4 (Carbon · Hydrogen) Slides</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html, body {
@@ -39,7 +39,6 @@
     .card-hdr { background: #E8F0FE; color: #174EA6; font-weight: 800; padding: 6px 10px; border-radius: 5px; font-size: clamp(12px, 1.1vw, 16px); }
     .card p { font-size: clamp(12px, 1.05vw, 15px); color: #374151; line-height: 1.55; }
 
-    /* Bottom presenter bar — completely hidden in fullscreen! */
     .hud-bar {
       position: fixed; bottom: 0; left: 0; right: 0; height: 40px;
       background: rgba(255,255,255,0.95); border-top: 1px solid #E5E7EB;
@@ -56,31 +55,28 @@
 </head>
 <body>
   <div class="deck" id="deck">
-    <!-- 01 Cover -->
     <section class="slide active" data-title="01. 워크숍 오프닝 & 목표">
       <div>
-        <span class="eyebrow">GOOGLE ANTIGRAVITY &amp; GEMINI 4 ARGON · ENGINEERING WORKSHOP</span>
+        <span class="eyebrow">GOOGLE ANTIGRAVITY &amp; GEMINI 4 (CARBON · HYDROGEN)</span>
         <h1 style="margin-top:8px;">LG CNS 실전 엔지니어링 핸즈온 커리큘럼</h1>
-        <p class="sub">Gemini 4 Argon 추론·공간·코드 밀도 체감 및 Antigravity 고유 자율 검증·멀티에이전트 워크플로우 실습 (90분 압축 / 180분 심화)</p>
+        <p class="sub">Gemini 4 Carbon · Hydrogen 강점 체감 및 Antigravity 고유 자율 검증·멀티에이전트 워크플로우 실습 (90분 압축 / 180분 심화)</p>
       </div>
       <div class="stage" style="background:#FFFFFF;">
         <div class="grid-4">
           <div class="card"><div class="card-hdr">🪪 Part 0 · 세팅 &amp; 제어</div><p><strong>90분: 10m / 180분: 20m</strong><br>3대 서피스(AGY 2.0 · CLI · VS Code) 기업 로그인 완주 및 작업 중 무중단 실시간 조향</p></div>
           <div class="card"><div class="card-hdr">🧭 Part 1 · 자율 디버깅</div><p><strong>90분: 30m / 180분: 55m</strong><br>/grill-me ➔ /plan ➔ /browser 크롬 재현 ➔ /goal 6개 진단 통과 루프 &amp; /generative_ui</p></div>
-          <div class="card"><div class="card-hdr">🚀 Part 2 · 모델 &amp; 3D 비교</div><p><strong>90분: 30m / 180분: 60m</strong><br>3.8 Flash ↔ 4 Argon 3D AGV 비교 · 공식 벤치마크 3선 · Claude vs Carbon 토큰 밀도 데모</p></div>
+          <div class="card"><div class="card-hdr">🚀 Part 2 · Carbon &amp; Hydrogen</div><p><strong>90분: 30m / 180분: 60m</strong><br>4 Hydrogen ↔ 4 Carbon 3D AGV 비교 · 공식 벤치마크 3선 · Claude vs Carbon 토큰 밀도 데모</p></div>
           <div class="card"><div class="card-hdr">🛡️ Part 3 · 분업 &amp; 자산화</div><p><strong>90분: 20m / 180분: 45m</strong><br>/boost Worker 1➔2 교차 검증 · /teamwork 파일 독점 병렬 구현 · /learn &amp; /plugin 패키징</p></div>
         </div>
       </div>
     </section>
 
-    <!-- 02 Part 0 Divider -->
     <section class="slide divider" data-title="02. Part 0 — 환경 세팅 & 무중단 제어">
       <span class="eyebrow">PART 0 · ENVIRONMENT &amp; LIVE STEERING</span>
       <h1>환경 세팅 &amp; 무중단 제어</h1>
       <p class="sub">Antigravity 2.0 · CLI · VS Code Extension 기업 계정 로그인 완주 및 실행 중 에이전트 실시간 조향</p>
     </section>
 
-    <!-- 03 3 Surfaces Login -->
     <section class="slide" data-title="03. 3대 서피스 기업 계정 로그인 완주">
       <div>
         <span class="eyebrow">PART 0-1 · ENTERPRISE SSO CHECKPOINT</span>
@@ -90,24 +86,21 @@
       <div class="stage"><img src="../assets/screenshots/part0_surfaces_and_login.png" alt="3 surfaces login" /></div>
     </section>
 
-    <!-- 04 Boundary & Live Steering -->
     <section class="slide" data-title="04. 프로젝트 경계 격리 & 무중단 제어">
       <div>
         <span class="eyebrow">PART 0-2 · SANDBOX &amp; LIVE STEERING</span>
         <h2>작업 중인 에이전트를 멈추지 않는 Send Immediately 조향과 /btw 무오염 질문</h2>
-        <p class="sub">Default 샌드박스로 외부 폴더 접근을 차단하고, 코딩 도중 실시간 조건 변경 및 메인 컨텍스트 분리 질문을 수행합니다.</p>
+        <p class="sub">기본 모델 Gemini 4 Hydrogen(High) 및 Default 샌드박스로 안전한 작업 경계 내에서 실시간 개입을 수행합니다.</p>
       </div>
       <div class="stage"><img src="../assets/screenshots/part0_boundary_and_steering.png" alt="live steering" /></div>
     </section>
 
-    <!-- 05 Part 1 Divider -->
     <section class="slide divider" data-title="05. Part 1 — 설계 리뷰 ~ 브라우저 자율 루프">
       <span class="eyebrow">PART 1 · DESIGN TO AUTONOMOUS BROWSER VERIFICATION</span>
       <h1>설계 리뷰 ~ 브라우저 자율 디버깅 루프</h1>
       <p class="sub">/grill-me · /plan · /browser · /goal · /generative_ui 로 MSA 주문·정산 복합 버그 4종 완결</p>
     </section>
 
-    <!-- 06 /grill-me & /plan -->
     <section class="slide" data-title="06. /grill-me 역질문 & /plan 인라인 코멘트">
       <div>
         <span class="eyebrow">PART 1-1 · SPEC ALIGNMENT BEFORE CODE</span>
@@ -117,7 +110,6 @@
       <div class="stage"><img src="../assets/screenshots/part1_grill_plan_nanobanana.png" alt="grill-me and plan" /></div>
     </section>
 
-    <!-- 07 /browser, /goal, /generative_ui -->
     <section class="slide" data-title="07. /browser · /goal 자율 검증 & /generative_ui">
       <div>
         <span class="eyebrow">PART 1-2 &amp; 1-3 · SELF-VERIFYING LOOP &amp; INLINE UI</span>
@@ -127,51 +119,45 @@
       <div class="stage"><img src="../assets/screenshots/part1_browser_goal_genui.png" alt="browser goal generative_ui" /></div>
     </section>
 
-    <!-- 08 Part 2 Divider -->
-    <section class="slide divider" data-title="08. Part 2 — 모델 & 3D·벤치마크·토큰 비교">
-      <span class="eyebrow">PART 2 · GEMINI 4 ARGON &amp; CARBON BENCHMARK SHOWCASE</span>
+    <section class="slide divider" data-title="08. Part 2 — Carbon & Hydrogen · 3D · 벤치마크">
+      <span class="eyebrow">PART 2 · GEMINI 4 CARBON &amp; HYDROGEN SHOWCASE</span>
       <h1>모델 전환 &amp; 3D·벤치마크·토큰 밀도 비교</h1>
-      <p class="sub">Gemini 3.8 Flash ↔ Gemini 4 Argon 실시간 전환 · 최상위 벤치마크 3선 · Claude vs Carbon 토큰 효율 실측</p>
+      <p class="sub">Gemini 4 Hydrogen ↔ Gemini 4 Carbon 실시간 전환 · 공식 벤치마크 3선 · Claude vs Carbon 토큰 효율 실측</p>
     </section>
 
-    <!-- 09 Flash vs Argon 3D Switch -->
-    <section class="slide" data-title="09. 3.8 Flash vs 4 Argon 단일 프롬프트 3D 비교">
+    <section class="slide" data-title="09. 4 Hydrogen vs 4 Carbon 단일 프롬프트 3D 비교">
       <div>
         <span class="eyebrow">PART 2-1 · SINGLE-PROMPT 3D &amp; PHYSICS SWITCH</span>
         <h2>동일 1줄 프롬프트로 스마트 물류 AGV 군집 주행 &amp; 중력 낙하 우회 3D 웹앱 비교</h2>
-        <p class="sub">일상 고속 구현은 Gemini 3.8 Flash(70%), 3D 공간 좌표·A* 재탐색·복합 물리 수식은 Gemini 4 Argon(30%)으로 전환합니다.</p>
+        <p class="sub">일상 고속 구현·워커는 Gemini 4 Hydrogen(Low~XHigh), 고난도 3D 물리·아키텍처·보안은 Gemini 4 Carbon으로 배합합니다.</p>
       </div>
-      <div class="stage"><img src="../assets/screenshots/part2_flash_vs_argon_3d.png" alt="Flash vs Argon 3D" /></div>
+      <div class="stage"><img src="../assets/screenshots/part2_hydrogen_vs_carbon_3d.png" alt="Hydrogen vs Carbon 3D" /></div>
     </section>
 
-    <!-- 10 Benchmark Trio -->
-    <section class="slide" data-title="10. Argon & Carbon 강점 벤치마크 프롬프팅 3선">
+    <section class="slide" data-title="10. Carbon & Hydrogen 강점 벤치마크 프롬프팅 3선">
       <div>
         <span class="eyebrow">PART 2-2 · OFFICIAL BENCHMARK-DRIVEN TASKS</span>
-        <h2>Blueprint-Bench 2 · Vals Index v2.2 · CWE-bench 실전 고난도 과제 3선</h2>
+        <h2>Blueprint-Bench 2 · Vals Index · ExploitGym 실전 고난도 과제 3선</h2>
         <p class="sub">2D 서버룸 평면도 3D 복원·방화문 간섭 검출, MSP 계약서-원장 4대 모순 감사, SQLi·동시성 무중단 보안 패치를 직접 검증합니다.</p>
       </div>
       <div class="stage"><img src="../assets/screenshots/part2_benchmark_trio.png" alt="Benchmark trio" /></div>
     </section>
 
-    <!-- 11 Claude vs Carbon Token Efficiency Demo -->
-    <section class="slide" data-title="11. [데모] Claude vs Carbon·Argon 토큰 대비 아웃풋">
+    <section class="slide" data-title="11. [데모] Claude vs Carbon 토큰 대비 아웃풋">
       <div>
         <span class="eyebrow">PART 2-3 · TOKEN-TO-OUTPUT EFFICIENCY DEMO</span>
-        <h2>Claude Opus 5.5 대비 더 적은 토큰으로 3.5~4.3배 높은 유효 코드 밀도와 1,000K 연속 출력</h2>
-        <p class="sub">내부 추론 토큰 공회전을 줄여 고밀도 실행 코드를 생성하며, 64K 절단 없이 대규모 16개 모듈 스캐폴딩을 단일 호흡에 완주합니다.</p>
+        <h2>Claude Opus 5.5 대비 22.5% 적은 토큰으로 3.5배 높은 유효 코드 밀도와 1,000K 연속 출력</h2>
+        <p class="sub">내부 추론 토큰 공회전을 줄여 고밀도 실행 코드를 생성하며, Carbon + Hydrogen 모두 최대 100만 Output 토큰을 지원합니다.</p>
       </div>
       <div class="stage"><img src="../assets/screenshots/part2_claude_vs_carbon_tokens.png" alt="Claude vs Carbon token efficiency" /></div>
     </section>
 
-    <!-- 12 Part 3 Divider -->
     <section class="slide divider" data-title="12. Part 3 — 멀티에이전트 분업 & 팀 자산화">
       <span class="eyebrow">PART 3 · MULTI-AGENT ORCHESTRATION &amp; TEAM ASSETS</span>
       <h1>멀티에이전트 분업 &amp; 팀 자산화</h1>
       <p class="sub">/boost Worker 1➔2 교차 검증 · /teamwork 파일 독점 병렬 구현 · /learn &amp; /plugin 팀 표준 배포</p>
     </section>
 
-    <!-- 13 /boost Worker 1 -> 2 -->
     <section class="slide" data-title="13. /boost Worker 1 ➔ Worker 2 교차 검증">
       <div>
         <span class="eyebrow">PART 3-1 · FRESH-CONTEXT ADVERSARIAL VERIFICATION</span>
@@ -181,17 +167,15 @@
       <div class="stage"><img src="../assets/screenshots/part3_boost_worker_loop.png" alt="boost worker loop" /></div>
     </section>
 
-    <!-- 14 /teamwork & Subagents -->
     <section class="slide" data-title="14. /teamwork 파일 독점 병렬 구현 & Subagent">
       <div>
         <span class="eyebrow">PART 3-2 · DISJOINT FILE OWNERSHIP &amp; SUBAGENTS</span>
         <h2>파일 소유권을 독점 분할해 충돌 0건으로 병렬 구축하고 3중 감사 게이트를 통과하는 /teamwork</h2>
-        <p class="sub">백엔드·프론트·테스트 워커가 각자 전담 파일만 동시 구현하고, Critics · Challengers · Victory Auditor가 완결성을 감사합니다.</p>
+        <p class="sub">Carbon 플래너가 설계하고 Hydrogen 워커들이 전담 파일만 동시 구현한 뒤 Critics · Challengers · Victory Auditor가 감사합니다.</p>
       </div>
       <div class="stage"><img src="../assets/screenshots/part3_teamwork_disjoint_subagents.png" alt="teamwork subagents" /></div>
     </section>
 
-    <!-- 15 /learn & /plugin -->
     <section class="slide" data-title="15. /learn 규칙 영구 저장 & /plugin 팀 패키징">
       <div>
         <span class="eyebrow">PART 3-3 · TEAM STANDARDIZATION &amp; PACKAGING</span>
@@ -201,12 +185,11 @@
       <div class="stage"><img src="../assets/screenshots/part3_learn_plugin_packaging.png" alt="learn and plugin" /></div>
     </section>
 
-    <!-- 16 Closing -->
     <section class="slide" data-title="16. 마무리">
       <div style="margin:auto;text-align:center;">
         <span class="eyebrow">THANK YOU</span>
         <h1 style="margin-top:12px;">감사합니다</h1>
-        <p class="sub" style="margin-top:10px;">실습 파일 번들과 4모델 3D·토큰 비교 아레나에서 모든 예제를 바로 실행해 보실 수 있습니다.</p>
+        <p class="sub" style="margin-top:10px;">실습 파일 번들과 Claude vs Carbon 3D·토큰 비교 아레나에서 모든 예제를 바로 실행해 보실 수 있습니다.</p>
       </div>
     </section>
   </div>
